@@ -1,13 +1,19 @@
 import java.util.EmptyStackException;
 import java.util.NoSuchElementException;
-
+/*
+    David Mwas SIT/B/01-02286/2021
+    JOSEPH OMONDI SIT/B/01-02668/2021
+    CYNTHIA DAASHA SIT/
+    SAMUEL 
+ */
+// QUESTION 1
 public class Mmustlinkedin {
-    private Node head; // reference to the head of the linked list
+    private Node head; 
 
-    // Inner class for linked list node
+    
     private class Node {
-        int data; // data stored in the node
-        Node next; // reference to the next node in the list
+        int data; 
+        Node next; 
 
         Node(int data) {
             this.data = data;
@@ -15,7 +21,7 @@ public class Mmustlinkedin {
         }
     }
 
-    // Stack implementation using linked list
+//    QUESTION 2
     public void push(int data) {
         Node newNode = new Node(data);
         newNode.next = head;
@@ -31,7 +37,9 @@ public class Mmustlinkedin {
         return data;
     }
 
-    // Time complexity of stack operations: O(1)
+    
+
+// QUESTION 3
 
     // Queue implementation using linked list
     public void enqueue(int data) {
@@ -57,6 +65,10 @@ public class Mmustlinkedin {
     }
 
     // Time complexity of queue operations: O(1) for enqueue, O(n) for dequeue (n is the size of the queue)
+    // Time complexity of stack operations: O(1)
+
+    // IMPLEMENTATION OF THE Mmustlinkein class
+    
     public static void main(String[] args) {
         Mmustlinkedin m = new Mmustlinkedin();
         m.push(12);
