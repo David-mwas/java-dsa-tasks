@@ -5,7 +5,7 @@
 
 Time complexity of stack operations: O(1)
 #### Authors
-David MWANGI   || JOSEPH OMONDI || CYNTHIA DAASHA || SAMUEL MUTUKU 
+David MWANGI   || JOSEPH OMONDI || CYNTHIA DAASHA || SAMUEL MUTUKU || JANET MBINDI
     
 
  
