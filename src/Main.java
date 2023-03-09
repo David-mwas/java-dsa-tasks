@@ -3,6 +3,7 @@
     JOSEPH OMONDI  SIT/B/01-02668/2021
     CYNTHIA DAASHA SIT/SIT/B/01-02279/2021
     SAMUEL MUTUKU  SIK/B/01-01715/2021
+    JANET MBINDI.  SIK/B/01-01716/2021
 */
 public class Main {
     public static void main(String[] args) {
